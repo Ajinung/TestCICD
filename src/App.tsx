@@ -7,7 +7,7 @@ import Hero from "./components/Home/Hero/Hero";
 
 function App() {
   return (
-    <div>
+    <div style={{ backgroundColor: "#fff" }}>
       <Header />
       <Hero />
       <Footer />

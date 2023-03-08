@@ -68,7 +68,7 @@ const Resource = styled.div`
 `;
 
 const Wrapper = styled.div`
-  width: 95%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;

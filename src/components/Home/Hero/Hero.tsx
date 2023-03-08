@@ -1,7 +1,7 @@
 import React from "react";
 // import pic from "../git.png";
 import styled from "styled-components";
-import pics from "../nikeShoe.jpg";
+import pics from "../../Assets/nikeShoe.jpg";
 
 const Hero = () => {
   return (
@@ -27,7 +27,7 @@ const Hero = () => {
 export default Hero;
 
 const ImgHold = styled.div`
-  width: 50%;
+  width: 40%;
   height: 400px;
 
   img {
@@ -50,7 +50,7 @@ const Wrapper = styled.div`
   }
   p {
     font-size: 15px;
-    color: white;
+    /* color: white; */
     width: 500px;
     height: 100px;
   }
@@ -59,7 +59,7 @@ const Wrapper = styled.div`
 const Container = styled.div`
   width: 100%;
   height: 500px;
-  background-color: black;
+  /* background-color: black; */
 
   display: flex;
   justify-content: center;
