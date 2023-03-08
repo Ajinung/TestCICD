@@ -40,7 +40,7 @@ export default Footer;
 
 const About = styled.div`
   width: 30%;
-  height: 35vh;
+  height: 30vh;
   /* background-color: #fff; */
 
   h1 {
@@ -50,7 +50,7 @@ const About = styled.div`
 
 const Community = styled.div`
   width: 30%;
-  height: 35vh;
+  height: 30vh;
   /* background-color: #fff; */
 
   h1 {
@@ -60,8 +60,7 @@ const Community = styled.div`
 
 const Resource = styled.div`
   width: 30%;
-  height: 35vh;
-  /* background-color: #fff; */
+  height: 30vh;
 
   h1 {
     margin: 0;
@@ -70,10 +69,15 @@ const Resource = styled.div`
 
 const Wrapper = styled.div`
   width: 95%;
-  height: 95%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
+  padding: 15px;
+
+  h1 {
+    font-size: 1.1rem;
+  }
 `;
 
 const Container = styled.div`
@@ -83,4 +87,5 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   color: #fff;
+  margin-top: 20px;
 `;
