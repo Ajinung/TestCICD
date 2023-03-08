@@ -40,20 +40,32 @@ export default Footer;
 
 const About = styled.div`
   width: 30%;
-  height: 100%;
+  height: 35vh;
   /* background-color: #fff; */
+
+  h1 {
+    margin: 0;
+  }
 `;
 
 const Community = styled.div`
   width: 30%;
-  height: 100%;
+  height: 35vh;
   /* background-color: #fff; */
+
+  h1 {
+    margin: 0;
+  }
 `;
 
 const Resource = styled.div`
   width: 30%;
-  height: 100%;
+  height: 35vh;
   /* background-color: #fff; */
+
+  h1 {
+    margin: 0;
+  }
 `;
 
 const Wrapper = styled.div`
@@ -61,11 +73,11 @@ const Wrapper = styled.div`
   height: 95%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 `;
 
 const Container = styled.div`
   width: 100%;
-  height: 35vh;
   background-color: #000;
   display: flex;
   justify-content: center;
