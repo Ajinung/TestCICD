@@ -8,11 +8,7 @@ const Hero = () => {
       <Container>
         <Wrapper>
           <h1>Lorem ipsum dolor sit amet.</h1>
-          <pre>
-            Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit.
-            Repellendus vel dignissimos <br /> praesentium voluptatem <br />{" "}
-            laborum molestiae nulla.
-          </pre>
+          <pre>Lorem ipsum dolor sit amet</pre>
         </Wrapper>
         <ImgHold>
           <img src={pic} alt="" />
