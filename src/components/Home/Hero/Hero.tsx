@@ -6,7 +6,13 @@ const Hero = () => {
   return (
     <div>
       <Container>
-        <Wrapper></Wrapper>
+        <Wrapper>
+          <h1>Lorem ipsum dolor sit amet.</h1>
+          <pre>Lorem ipsum dolor sit amet</pre>
+        </Wrapper>
+        <ImgHold>
+          <img src={pic} alt="" />
+        </ImgHold>
       </Container>
     </div>
   );
@@ -14,13 +20,27 @@ const Hero = () => {
 
 export default Hero;
 
-const Wrapper = styled.div``;
+const ImgHold = styled.div`
+  width: 50%;
+  height: 100%;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+`;
+
+const Wrapper = styled.div`
+  width: 40%;
+  height: 100%;
+`;
 
 const Container = styled.div`
   width: 100%;
   height: 500px;
   background-color: lightgrey;
-  background-image: url(${pic});
-  background-repeat: no-repeat;
-  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
