@@ -23,11 +23,4 @@ const Container = styled.div`
   background-image: url(${pic});
   background-repeat: no-repeat;
   background-position: center;
-position: relative;
-  ::before{
-    width:100%;
-    height:100%;
-    background-color : rgba(0,0,0,0.6)
-    position: absolute;
-  }
 `;
